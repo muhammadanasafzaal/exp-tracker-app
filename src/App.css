@@ -1,8 +1,14 @@
+
+body{
+
+background-image: url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&ved=2ahUKEwiBmY3Rxp_qAhUE2uAKHddaDpkQjRx6BAgBEAQ&url=https%3A%2F%2Fwallpaperaccess.com%2Fbinary-code&psig=AOvVaw1S8pQwGKOisOyN1k7m95xA&ust=1593263338630551);  
+
+}
 .container{
   max-width:400px;
   min-height:450px;
   margin:0 auto;
-  background-color: #efefef;
+  background: linear-gradient(to right, #660066 0%, #660033 100%);
   box-shadow: 0 0 10px gray;
   margin-top:50px;
   padding: 15px 50px;
@@ -10,6 +16,7 @@
 
 .text-center{
   text-align: center;
+  color: white;
 }
 .expensecontainer{
   display:flex;
@@ -21,7 +28,7 @@
 .transaction-form input{
   width: 100%;
   margin-top: 10px;
-  padding: 5px;
+  padding: 5px 5px;
 }
 .transaction-list{
   margin:0;
@@ -31,7 +38,8 @@
 display:flex;
 justify-content: space-between;
 box-shadow: 0 0 10px gray;
-padding:10px 5px;
+padding:10px 15px;
 margin: 5px;
 background-color: white;
+border-radius: 4px;
 }
